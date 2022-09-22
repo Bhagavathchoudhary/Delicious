@@ -1,0 +1,6 @@
+# POST http://localhost:8900/login/premiumUser
+# Content-Type: application/json;
+# {
+#     'First_Name': 'John',
+#     'Last
+# }

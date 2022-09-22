@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <%- include('../partials/links'); %>   
+  </head>
+  <body>
+    <div class="background_image_breakfast">
+      <div
+        class="background_color_breakfast d-flex flex-column justify-content-center"
+      >
+        <h1 class="breakfast_heading">BREAKFAST</h1>
+        <% for (var i =0; i< breakfast.length; i++ ) { %>
+        <!-- <h1><%= breakfast.length %></h1> -->
+        <% if(breakfast[i].type === "0"){ %>
+        <div>
+          <div class="d-flex flex-row justify-content-between mainDiv">
+            <div class="image_heading d-flex flex-row">
+              <img src="./background_image/veg-icon.png" class="veg-icon" alt="veg">
+              <h1 class="food_heading"><%= breakfast[i].name %></h1>
+            </div>           
+            <p class="price"><%= breakfast[i].price %></p>
+          </div>
+          <p class="food_items_description"><%= breakfast[i].description %></p>
+        </div>
+        <%} else if(breakfast[i].type === "1") { %>          
+          <div>
+            <div class="d-flex flex-row justify-content-between mainDiv">
+              <div class="image_heading d-flex flex-row">
+                <img src="./background_image/non-veg-icon.png" class="non-veg-icon" alt="non-veg">
+                <h1 class="food_heading"><%= breakfast[i].name %></h1>
+              </div>
+              <p class="price"><%= breakfast[i].price %></p>
+            </div>
+            <p class="food_items_description"><%= breakfast[i].description %></p>
+          </div>
+          <%}%>       
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>

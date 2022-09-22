@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <%- include('../views/partials/links'); %>
+  </head>
+  <body>
+    <div
+      class="login_bg_image d-flex flex-column  justify-content-center"
+    >
+      <h1 class="login_heading">
+        The loneliest place to be is a hotel room in a big city in early
+        evening.
+      </h1>
+      <p class="login_paragraph">- Bhagavath Choudhary</p>
+    </div>
+    <div class="white_bg_form p-5 ">
+        <div class="text-center d-flex flex-row justify-content-center">
+          <div>
+            <p class="reserve_your_table_today">Be our Premium Member today</p>
+            <h1 class="make_a_reservation">Your one step ahead to Login with us</h1>
+            <hr class="hr" />
+          </div>
+        </div>
+        <div class=" d-flex justify-content-center m-5">
+          <div class="grey_bg_for_login p-5">
+              <form class="p-4"action="/register/premiumUser" method="post">        
+                <div class="d-flex flex-row mt-3">
+                    <label id="icon" for="Email"><i class="fas fa-envelope"></i></label>
+                    <input type="email" class="form-control input_tags" placeholder="Email" id="Email" name="Email"/>
+                  </div> 
+                  <div class="d-flex flex-row mt-3">
+                    <label id="icon" for="password"><i class="fas fa-lock"></i></i></label>
+                    <input type="password" class="form-control input_tags" placeholder="Password" id="Password" name="Password"/>
+                  </div>           
+                <div class="mt-3 d-flex flex-row justify-content-center">
+                  <a href="#">
+                      <button type="submit" class="get_ready_to_book" >Login</button>
+                    </a> 
+                </div>           
+              </form>
+            </div>
+        </div>      
+      </div>
+  </body>
+</html>

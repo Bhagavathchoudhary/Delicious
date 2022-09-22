@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <%- include('./partials/links'); %>
+  </head>
+  <body>
+    <div class="container main_home_background d-flex flex-column justify-content-center"> 
+      <nav class="navbar navbar-expand-lg navbar-light navba">
+        <div class="container-fluid">
+          <a class="navbar-brand logo_Delicious" href="DeliciousOffcialPage"
+            >Delicious</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav margin_left_home">
+              <li class="nav-item">
+                <a
+                  class="nav-link active homeCss"
+                  aria-current="page"
+                  href="DeliciousOffcialPage"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item dropdown ms-5">
+                <a
+                  class="nav-link dropdown-toggle cattalogs"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CATALOGS
+                </a>
+                <ul
+                  class="dropdown-menu dropdown_color"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="breakfastBuffet"
+                      >BREAKFAST BUFFET</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="lunchBuffet">LUNCH BUFFET</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="soup_salad_desert"
+                      >SOUPS, SALADS AND DESSERTS</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link cattalogs" href="#">GALLERY</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link cattalogs" href="#">About us</a>
+              </li>
+              <li class="nav-item ms-5 ">
+                <a class="nav-link cattalogs" href="registerPremiumMembers">Register</a>
+              </li>
+              <li class="nav-item ms-5 ">
+                <a class="nav-link cattalogs" href="login">login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="mai_text_heading">
+        <h1 class="restaurant_title">Restaurant</h1>
+        <p class="restaurant_subheading">
+          A taste of local ingrdients & seasonal flavours
+        </p>
+        <p class="we_are_ready">WE ARE READY</p>
+        <div>
+          <a href="reservation">
+            <button class="get_ready_to_book" >Reservation</button>
+          </a>         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

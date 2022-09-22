@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <%- include('../views/partials/links'); %>
+  </head>
+  <body>
+    <div
+      class="login_bg_image d-flex flex-column  justify-content-center"
+    >
+      <h1 class="login_heading">
+        The loneliest place to be is a hotel room in a big city in early
+        evening.
+      </h1>
+      <p class="login_paragraph">- Bhagavath Choudhary</p>
+    </div>
+    <div class="white_bg_form p-5 ">
+        <div class="text-center d-flex flex-row justify-content-center">
+          <div>
+            <p class="reserve_your_table_today">Be our Premium Member today</p>
+            <h1 class="make_a_reservation">Make a Register with us</h1>
+            <hr class="hr" />
+          </div>
+        </div>
+        <div class=" d-flex justify-content-center m-5">
+          <div class="grey_bg_for_booking p-5">
+              <form class="p-4"action="/premiumUser" method="post">
+                <div class="d-flex flex-row mt-3">
+                  <label id="icon" for="First_Name"><i class="fas fa-user"></i></label>
+                  <input type="text" class="form-control input_tags" placeholder="First Name" id="First_Name" name="First_Name"/>
+                </div>
+                <div class="d-flex flex-row mt-3">
+                  <label id="icon" for="Last_Name"><i class="fas fa-user"></i></label>
+                  <input type="text" class="form-control input_tags" placeholder="Last Name" id="Last_Name" name="Last_Name"/>
+                </div>
+                <div class="d-flex flex-row mt-3">
+                    <div >
+                        <label class="gender">Gender</label>
+                        <input type="radio" value="Male" id="male" name="genders" checked/>
+                        <i id="icon"  class="fas fa-male"></i>
+                        <label for="male" class="radio">Male</label>
+                        <input type="radio" value="Female" id="female" name="genders" />
+                        <i id="icon" class="fas fa-female"></i>
+                        <label  for="female" class="radio"></i>Female</label>
+                      </div>
+                  </div>              
+                <div class="d-flex flex-row mt-3">
+                  <label id="icon" for="phone_number"><i class="fas fa-phone-alt"></i></label>
+                  <input type="tel" class="form-control input_tags" placeholder="Only Indian Phone Number" id="phone_number" name="phone_number"/>
+                </div>
+                <div class="d-flex flex-row mt-3">
+                    <label id="icon" for="Email"><i class="fas fa-envelope"></i></label>
+                    <input type="email" class="form-control input_tags" placeholder="Email" id="Email" name="Email"/>
+                  </div> 
+                  <div class="d-flex flex-row mt-3">
+                    <label id="icon" for="password"><i class="fas fa-lock"></i></i></label>
+                    <input type="password" class="form-control input_tags" placeholder="Password" id="Password" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].{8,})"/>
+                  </div>
+                  <div class="d-flex flex-row mt-3">
+                    <label id="icon" for="Confirm_password"><i class="fas fa-lock"></i></i></label>
+                    <input type="password" class="form-control input_tags" placeholder="Confirm Password" id="Confirm_password" name="Confirm_password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z].{8,})"/>
+                  </div>            
+                <div class="mt-3 d-flex flex-row justify-content-center">
+                  <a href="login">
+                      <button type="submit" class="get_ready_to_book" >Register</button>
+                    </a> 
+                </div>           
+              </form>
+            </div>
+        </div>      
+      </div>
+  </body>
+</html>

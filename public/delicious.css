@@ -1,0 +1,460 @@
+/* background-image */
+.main_home_background {
+  background-image: url("/background_image/home_background.jpg");
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.navba {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+}
+/* logo Delicious */
+.logo_Delicious {
+  /* font-family: "Pacifico"; */
+  /* font-family: 'Courgette', cursive; */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: normal;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #fff !important;
+}
+/* homeCss */
+.margin_left_home {
+  margin-left: 420px;
+}
+.homeCss {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #ffff !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.homeCss:hover,
+.homeCss:focus {
+  border-bottom: 1px solid #fff;
+  padding: 0px;
+  padding-bottom: 5px;
+}
+/* CATALOGS */
+/* Dropdown Menu Color*/
+.dropdown_color {
+  font-family: "Quicksand", sans-serif;
+  background-color: black;
+}
+.dropdown_color li a,
+.dropdown_color li a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+/* main cattalogs */
+.cattalogs {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #ffff !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.cattalogs:hover,
+.cattalogs:focus {
+  border-bottom: 1px solid #fff;
+  padding: 0px;
+  padding-bottom: 5px;
+}
+
+
+/* food item css */
+.mainDiv{
+  width: 800px;
+ 
+}
+.breakfast_heading{
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.food_heading{
+  margin-left:9px !important;
+  margin-bottom: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  font-weight: 410;
+ margin-left: 20px;
+ color: #E3B027;
+}
+.price{
+  margin-top: 26px;
+  margin-bottom: 0;
+  font-family: "Quicksand", sans-serif;
+  color:#E39F27;
+  font-size: 20px;
+}
+.food_items_description{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 70%;
+  color:whitesmoke;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+}
+/* Breakfast Page */
+.background_image_breakfast{
+  background-image: url("./background_image/imagess.jpeg") !important;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.background_color_breakfast{
+  background-color: #140704;
+  height: 100vh;
+  width :60%;
+  padding: 20px;
+}
+.background_color_soup{
+  background-color: #140704;
+  /* height: 100vh; */
+  width :60%;
+  padding: 20px;
+}
+/* veg & non-veg */
+.image_heading{
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+.veg-icon{
+  height: 18px;
+  width: 15px;
+  margin-top: 5px;
+  margin-left: 10px;
+  }
+.non-veg-icon{
+height: 18px;
+width: 15px;
+margin-top: 5px;
+margin-left: 10px;
+}
+/* lunch cattalogs */
+.background_image_lunch{
+  background-image: url("./background_image/lunch_backgound.jpg") !important;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+/* Soup Salad Desert */
+/* Desert */
+.desert_heading{
+  color: rgb(198, 159, 124);
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.soupSaladDesert_heading{
+  color: rgb(198, 159, 124);
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Main content */
+/* DIV */
+#mai_text_heading{
+  display: flex;
+  flex-direction: column !important;
+  justify-content: start!important;
+  align-items: center;
+
+}
+
+.we_are_ready{
+  color: rgb(242, 241, 241);
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  font-weight: normal;
+  font-size: 9px;
+}
+.restaurant_title{
+  color: rgb(198, 159, 124);
+  font-family: 'Alex Brush' !important;
+ letter-spacing: 0;
+  min-height: 48px;
+  min-width: 0;
+  max-height: 48px;
+  max-width: none;
+  font-weight: normal;
+  font-size: 53px;
+}
+.restaurant_subheading{
+  color: rgb(242, 241, 241);
+  font-family: "Quicksand", sans-serif;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+.get_ready_to_book{
+  height: 35px;
+  width: 105px;
+  background-color: rgb(198, 159, 124);
+  color: #fff;
+  border-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  cursor: pointer;
+  border-width: 0;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+}
+:hover.get_ready_to_book{
+  background-color: #060607;
+}
+/* Reservation page */
+.resvation_bg_image{
+  background-image: url("./background_image/reservation_bg.jpg");
+  height: 60vh;
+  max-height: 60vh;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+.reservation_title{
+    /* color: rgb(198, 159, 124); */
+    color: rgb(238, 238, 238);
+    /* font-family: 'Alex Brush' !important; */
+    /* font-family: "Qwitcher Grypen", sans-serif; */
+    font-family: "Quicksand", sans-serif;
+   letter-spacing: 0;
+    min-height: 48px;
+    min-width: 0;
+    max-height: 48px;
+    max-width: none;
+    font-weight: 600;
+    font-size: 53px;
+  margin-top: 75px;
+  padding-top: 70px;
+}
+.white_bg_form{
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+.reserve_your_table_today{
+  color: rgb(159, 159, 159);
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.make_a_reservation{
+  /* color: rgb(198, 159, 124); */
+  color: rgb(0, 0, 0);
+  /* font-family: 'Alex Brush' !important; */
+  /* font-family: "Qwitcher Grypen", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+ letter-spacing: 0;
+  min-height: 48px;
+  min-width: 0;
+  max-height: 48px;
+  max-width: none;
+  font-weight: 600;
+  font-size: 43px;
+}
+.hr{
+  color: rgb(183, 85, 0);
+  width: 55px;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 20px auto 0;
+}
+
+.grey_bg_for_booking{
+  background-color: #d4d1d1 !important;
+  width: 600px; 
+  min-height: 460px; 
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  padding: 10px 0;
+  margin: auto;
+  border-radius: 5px; 
+  border: solid 1px #ccc;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  background: #ebebeb; 
+}
+form {
+  margin: 0 30px;
+  }
+  #icon{
+    display: inline-block;
+    padding: 9px 15px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #060607;
+    color: #fff;
+    text-align: center;
+  }
+  #icons{
+    display: inline-block !important;
+    padding: 9px 15px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #060607;
+    color: #fff;
+    text-align: center;
+  }
+  .input_tags{
+  border-top-left-radius:0 ;
+  border-bottom-left-radius:0 ;
+  outline: none;
+  }
+ 
+  .hour_input_tags{
+    display: inline-block !important;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    outline: none;
+    width: 150px;
+    
+    }
+  .hour_input_tag{
+    display: inline-block !important;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    outline: none;
+    width: 150px !important;
+    }
+    .form-contro{
+      width: 70%;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      appearance: none;
+      border-radius: .375rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+  /* error Styling */
+.error_background_image{
+  background-image: url("./background_image/error.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.register_error_background_image{
+  background-image: url("./background_image/error.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.error_title{
+  color: rgb(198, 159, 124);
+  font-family:  "Quicksand", sans-serif !important;
+ letter-spacing: 0;
+  min-height: 48px;
+  min-width: 0;
+  max-height: 48px;
+  max-width: none;
+  font-weight: normal;
+  font-size: 33px;
+}
+/* Login Form*/
+.login_bg_image{
+  background-image: url("./background_image/top_bg_login.jpg");
+  height: 80vh;
+  max-height: 80vh;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  color: #ccc;
+}
+.login_heading{
+  color: rgb(1, 1, 1);
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0;
+  align-self: center;
+  /* margin-top: 300px;
+  margin-left: 240px; */
+  padding-left: 70px;
+  font-size: 30px;
+  text-align: center;
+  max-width: 680px;
+  font-weight: 600;
+  text-align: center;
+}
+.login_paragraph{
+  color: rgb(224, 113, 48);
+  font-family:'Alex Brush' !important; 
+  font-size: 30px;
+  text-align:center;
+  font-weight: 600;
+  margin-left: 100px;
+}
+.gender{
+    color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+  }
+#female{
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-left: 10px;
+  padding: 5px;
+}
+.grey_bg_for_login{
+  background-color: #d4d1d1 !important;
+  width: 600px; 
+ height: 260px; 
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  padding: 10px 0;
+  margin: auto;
+  border-radius: 5px; 
+  border: solid 1px #ccc;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  background: #ebebeb; 
+}
